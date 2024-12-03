@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding-top: 10px;
+    background-color: rgb(27, 27, 50);
+    text-align: center;
+    color: white;
+    height: 100px;
+    border-bottom: 4px solid #FDB347;
+    text-transform: uppercase;
+}
+
+main {
+    margin: auto;
+    max-width: 1400px;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+main img {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    /*Fixes aspect ratio of a replaced element*/
+    object-fit: cover;
+}
+
+main:after {
+    content: "";
+    width: 716px;
+}
+
