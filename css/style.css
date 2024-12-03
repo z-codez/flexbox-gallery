@@ -4,15 +4,16 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
 }
 
 header {
-    padding-top: 10px;
+    padding: 32px;
     background-color: rgb(27, 27, 50);
     text-align: center;
     color: white;
-    height: 100px;
     border-bottom: 4px solid #FDB347;
     text-transform: uppercase;
 }
@@ -31,7 +32,7 @@ main {
 main img {
     width: 100%;
     max-width: 350px;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     /*Fixes aspect ratio of a replaced element*/
     object-fit: cover;
